@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "penGo",
+    "slug": "uturn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-font"],
+    "notification": {
+      "icon": "./assets/noha.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cf20b974-56da-4554-ad05-abdce17e6729"
+      }
+    },
+    "owner": "cayto11"
+  }
+}
